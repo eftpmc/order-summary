@@ -21,10 +21,17 @@ body {
 
 #base{
     background-color: white;
-    max-width: 450px;
+    max-width: 435px;
     min-height: 35vw;
     border-radius: 25px;
     text-align: center;
+}
+
+@media (max-width:600px){
+  #base{
+    max-width: 375px;
+    min-height: 30vw;
+  }
 }
 
 #image{
@@ -64,6 +71,7 @@ body {
 #undertitle{
   color: hsl(223, 47%, 23%);
   font-weight: 700;
+  margin: auto;
 }
 
 #cost{

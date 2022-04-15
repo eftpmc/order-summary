@@ -10,13 +10,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
         <div id="base">
-          <img id="image" src="/illustration-hero.svg"></img>
+        <img id="image" src="/illustration-hero.svg"></img>
           <div id="text">
           <p id="title">Order Summary</p>
           <p class="paleblue">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
           <div id="price">
-            <img id="music" src="icon-music.svg"></img>
-            <p id="undertitle">Annual Plan<p id="cost" class="paleblue">$59.99/year</p></p>
+          <img id="music" src="icon-music.svg"></img>
+            <div id="undertitle">Annual Plan<p id="cost" class="paleblue">$59.99/year</p></div>
             
             <a id="change">Change</a>
           </div>
